@@ -28,7 +28,7 @@
     var header = document.querySelector('.site-header');
     if (header) {
         var onScroll = function () {
-            header.style.boxShadow = window.scrollY > 8 ? '0 4px 16px rgba(26,26,46,0.08)' : 'none';
+            header.style.boxShadow = window.scrollY > 8 ? '0 4px 16px rgba(15,14,54,0.08)' : 'none';
         };
         document.addEventListener('scroll', onScroll, { passive: true });
         onScroll();

@@ -23,7 +23,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 102, 255, 0.08);
+    background: rgba(41, 39, 146, 0.08);
     color: var(--color-primary);
     margin-bottom: 1.25rem;
 }
@@ -269,7 +269,7 @@
 .contact-info-item__icon {
     width: 42px; height: 42px;
     border-radius: var(--radius-sm);
-    background: rgba(0,102,255,0.08);
+    background: rgba(41,39,146,0.08);
     color: var(--color-primary);
     display: flex; align-items: center; justify-content: center;
     flex-shrink: 0;

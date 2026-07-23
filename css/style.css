@@ -14,12 +14,12 @@ button { cursor: pointer; background: none; border: none; }
 
 /* ---------- Design Tokens ---------- */
 :root {
-    --color-primary: #292792;
-    --color-primary-dark: #1C1B64;
-    --color-accent: #7C78C4;
+    --color-primary: #0066FF;
+    --color-primary-dark: #0050CC;
+    --color-accent: #FF6B35;
     --color-success: #10B981;
-    --color-dark: #0F0E36;
-    --color-light: #F6F6FB;
+    --color-dark: #1A1A2E;
+    --color-light: #F8FAFC;
     --color-white: #FFFFFF;
     --color-gray-100: #F1F5F9;
     --color-gray-300: #CBD5E1;
@@ -33,9 +33,9 @@ button { cursor: pointer; background: none; border: none; }
     --radius-md: 14px;
     --radius-lg: 24px;
 
-    --shadow-sm: 0 1px 3px rgba(15, 14, 54, 0.08);
-    --shadow-md: 0 8px 24px rgba(15, 14, 54, 0.10);
-    --shadow-lg: 0 20px 48px rgba(15, 14, 54, 0.16);
+    --shadow-sm: 0 1px 3px rgba(26, 26, 46, 0.08);
+    --shadow-md: 0 8px 24px rgba(26, 26, 46, 0.10);
+    --shadow-lg: 0 20px 48px rgba(26, 26, 46, 0.16);
 
     --container-width: 1180px;
     --space-section: clamp(3.5rem, 6vw, 6rem);
@@ -114,7 +114,7 @@ textarea:focus-visible {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--color-primary);
-    background: rgba(41, 39, 146, 0.08);
+    background: rgba(0, 102, 255, 0.08);
     padding: 0.35rem 0.9rem;
     border-radius: 999px;
     margin-bottom: 1rem;
@@ -248,8 +248,8 @@ textarea:focus-visible {
 .hero {
     padding-block: clamp(3rem, 7vw, 5.5rem);
     background:
-        radial-gradient(circle at 85% 10%, rgba(124, 120, 196, 0.12), transparent 45%),
-        radial-gradient(circle at 5% 90%, rgba(41, 39, 146, 0.10), transparent 45%),
+        radial-gradient(circle at 85% 10%, rgba(255, 107, 53, 0.10), transparent 45%),
+        radial-gradient(circle at 5% 90%, rgba(0, 102, 255, 0.10), transparent 45%),
         var(--color-light);
 }
 .hero__grid {

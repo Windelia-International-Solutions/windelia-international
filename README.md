@@ -22,7 +22,7 @@ windelia-international/
 ├── 404.html
 ├── css/ (style.css, components.css, responsive.css)
 ├── js/main.js
-├── images/logo-placeholder.svg
+├── images/ (logo.png, favicon-32.png, apple-touch-icon.png, og-image.png)
 ├── llms.txt, robots.txt, sitemap.xml, .htaccess
 ```
 
@@ -40,7 +40,7 @@ Data berikut masih berupa **placeholder** dan tersebar di banyak file
 | `[TAHUN BERDIRI]` | Tahun berdiri perusahaan | about.html JSON-LD |
 | `[HANDLE_INSTAGRAM]`, `[HANDLE_LINKEDIN]` | Handle media sosial resmi | index.html, footer |
 | `info@windeliainternational.com` | Email — pastikan mailbox ini aktif, atau ganti | Semua halaman |
-| `images/logo-placeholder.svg` | Logo placeholder — ganti dengan logo resmi (`logo.png`) | Semua halaman (favicon + nav) |
+| ✅ Logo resmi | **SELESAI** — diganti aset resmi: `images/logo.png`, `favicon-32.png`, `apple-touch-icon.png`, `og-image.png` | Semua halaman |
 | Testimoni `[Nama Klien]` | Ganti dengan testimoni klien nyata (dengan izin) | index.html |
 | `[Google Maps Embed]` | Ganti dengan embed peta lokasi kantor | contact.html |
 
